@@ -17,7 +17,11 @@ export const metadata: Metadata = {
   description:
     "Handcrafted with love, our bakery offers the finest cakes, pastries, and beverages in town. Order online or visit us today!",
   keywords: "bakery, cakes, pastries, coffee, desserts, custom cakes, birthday cakes, event catering",
-    generator: 'v0.dev'
+    generator: 'Whozaifa',
+  icons: {
+      icon: { url: '/favicon.jpg' }, // Or the path to your icon.png or other file
+    },
+  
 }
 
 export default function RootLayout({
